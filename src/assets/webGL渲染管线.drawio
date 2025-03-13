@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
+  <diagram name="第 1 页" id="QZ5VP-IjByIG_6Ax9p-G">
+    <mxGraphModel dx="1607" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-1" value="应用程序（CPU）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-2" value="&lt;ul&gt;&lt;li&gt;顶点着色器&lt;/li&gt;&lt;li&gt;设置着色器程序&lt;/li&gt;&lt;li&gt;调用绘制命令&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.78;align=left;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="60" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-3" value="顶点着色器（Vertex Shader）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-4" value="&lt;ul&gt;&lt;li&gt;顶点变换&lt;/li&gt;&lt;li&gt;顶点属性计算&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=20;position=0.83;align=left;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="210" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;strokeWidth=3;" edge="1" parent="1" source="y4sFVlR5p-HBQoDYDMpv-1" target="y4sFVlR5p-HBQoDYDMpv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="360" as="sourcePoint" />
+            <mxPoint x="70" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-6" value="图元装配（Primitive Assembly）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-7" value="&lt;ul&gt;&lt;li&gt;将顶点组装成图元&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=20;position=0.83;align=left;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="370" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.469;entryY=0.037;entryDx=0;entryDy=0;fontSize=19;strokeWidth=3;entryPerimeter=0;" edge="1" parent="1" source="y4sFVlR5p-HBQoDYDMpv-3" target="y4sFVlR5p-HBQoDYDMpv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="154.5" y="310" as="sourcePoint" />
+            <mxPoint x="154.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-9" value="光栅化（Rasterization）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="570" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-10" value="&lt;ul&gt;&lt;li&gt;将图元转换为片元（像素）&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=20;position=0.83;align=left;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="530" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.469;entryY=0.037;entryDx=0;entryDy=0;fontSize=19;strokeWidth=3;entryPerimeter=0;" edge="1" target="y4sFVlR5p-HBQoDYDMpv-9" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="470" as="sourcePoint" />
+            <mxPoint x="154.5" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-12" value="片元着色器（Fragment Shader）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-13" value="&lt;ul&gt;&lt;li&gt;计算片元颜色&lt;/li&gt;&lt;li&gt;应用纹理和光照效果&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=20;position=0.83;align=left;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="690" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.469;entryY=0.037;entryDx=0;entryDy=0;fontSize=19;strokeWidth=3;entryPerimeter=0;" edge="1" parent="1" target="y4sFVlR5p-HBQoDYDMpv-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="630" as="sourcePoint" />
+            <mxPoint x="154.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-15" value="逐片元操作（Per-fragment Operations）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="900" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-16" value="&lt;ul&gt;&lt;li&gt;深度测试&lt;/li&gt;&lt;li&gt;模板测试&lt;/li&gt;&lt;li&gt;混合操作&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=20;position=0.83;align=left;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="860" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;strokeWidth=3;entryX=0.421;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="y4sFVlR5p-HBQoDYDMpv-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155.5" y="790" as="sourcePoint" />
+            <mxPoint x="160" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-19" value="帧缓冲区（Frame Buffer）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1080" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-20" value="&lt;ul&gt;&lt;li&gt;最终图像显示在屏幕上&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=20;position=0.83;align=left;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1040" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y4sFVlR5p-HBQoDYDMpv-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;strokeWidth=3;entryX=0.439;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="y4sFVlR5p-HBQoDYDMpv-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="960" as="sourcePoint" />
+            <mxPoint x="175.5" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
