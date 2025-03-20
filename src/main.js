@@ -1,3 +1,7 @@
 // import { renderBox } from './three/1.three.js';
 
-// // renderBox();
+// renderBox();
+
+import { run } from "./webGL/1"
+
+run()
